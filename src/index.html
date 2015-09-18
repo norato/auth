@@ -1,0 +1,40 @@
+<!-- include empty layout -->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="APP" manifest="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>License Server</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>document.write('<base href="' + document.location + '" />');</script>
+
+    <!-- build:css styles/dependencies.min.css -->
+        <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css"/>
+    <!-- endbuild -->
+</head>
+<body ng-controller="appCtrl">
+
+    <button ng-click="login()">
+
+    <!-- build:js  js/dependencies.min.js -->
+    <script src="components/jquery/dist/jquery.js"></script>
+    <script src="components/angular/angular.js"></script>
+    <script src="components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="components/hello/dist/hello.js"></script>
+    <script src="components/hello/src/modules/google.js"></script>
+    <script src="components/ng-hello/dist/ng-hello.js"></script>
+    <!--endbuild-->
+
+    <!-- build:js  js/app.min.js -->
+    <script src="app.js"></script>
+    
+    <script src="core/configs/authConfig.js"></script>
+
+    <!--Controllers-->
+    <script src="app/appCtrl.js"></script>
+
+</body>
+</html>

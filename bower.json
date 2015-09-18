@@ -1,0 +1,27 @@
+{
+  "name": "auth",
+  "version": "0.0.0",
+  "homepage": "https://github.com/norato/auth",
+  "authors": [
+    "Felipe Norato Lacerda <fnoratol@gmail.com>"
+  ],
+  "license": "MIT",
+ "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/components",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.13",
+    "angular-bootstrap": "0.12.0",
+    "angular-cookies": "1.3.8",
+    "bootstrap": "3.3.1",
+    "hello": "~1.8.2",
+    "jquery": "2.1.3",
+    "ng-hello": "*"
+  },
+  "resolutions": {
+    "angular": "1.3.13"
+  }
+}
